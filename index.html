@@ -79,13 +79,15 @@
 
         <div class="about">
             <h3>CODE EXAMPLE</h3>
-            <pre class="javascript" style="font-family:monospace;"><span style="color: #000066; font-weight: bold;">function</span> squareSum<span style="color: #009900;">&#40;</span>numbers<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
-    let sum <span style="color: #339933;">=</span> <span style="color: #CC0000;">0</span>
-    <span style="color: #000066; font-weight: bold;">for</span> <span style="color: #009900;">&#40;</span>let num of numbers<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
-        sum <span style="color: #339933;">+=</span> <span style="">Math</span>.<span style="color: #660066;">pow</span><span style="color: #009900;">&#40;</span>num<span style="color: #339933;">,</span> <span style="color: #CC0000;">2</span><span style="color: #009900;">&#41;</span>
-    <span style="color: #009900;">&#125;</span>
-    <span style="color: #000066; font-weight: bold;">return</span> sum
-<span style="color: #009900;">&#125;</span></pre>
+            <pre>
+                function squareSum(numbers){
+                    let sum = 0
+                    for (let num of numbers) {
+                        sum += Math.pow(num, 2)
+                    }
+                    return sum
+                }
+            </pre>
         </div>
 
         <div class="about">

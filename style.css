@@ -28,6 +28,7 @@ body
 .photo
 {
     position: relative;
+    width: 30vh;
 }
 
 .contactInfo

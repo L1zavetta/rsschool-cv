@@ -28,3 +28,15 @@ function squareSum(numbers){
     return sum
 }
 ```
+****
+## Education
+* **Belarusian State University**
+    * Information resource management (School of Business BSU)
+* **Udemy**
+    * [Modern JavaScript + Vue from scratch on real projects](https://www.udemy.com/course/modern-javascript-from-beginning/) (in progress)
+* **RSSchool**
+    * [JavaScript/Front-end 2022Q3](https://app.rs.school/) (in progress)
+****
+## Languages
+* Russian - native
+* English - A2

@@ -1,0 +1,96 @@
+body
+{
+    background-color: #FFFFff;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: #fff;
+    color: #2F4F4F;
+}
+
+.container .left_side
+{
+    background-color: #DEB887;
+    padding: 40px;
+}
+
+.photo
+{
+    position: relative;
+    width: 30vh;
+}
+
+.contactInfo
+{
+    line-height: 1.8em;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+h3
+{
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.contactInfo ul
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 10px 0;
+}
+
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 25px;
+    font-size: 20px;
+}
+
+.contactInfo ul li .text
+{
+    font-weight: 300;
+}
+
+.container .right_side
+{
+    background-color: #FFEFD5;
+    padding: 40px;
+
+}
+
+h1
+{
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 1.8em;
+    border-bottom: 1px solid rgba(255,255,255,0.7);
+}
+
+.about
+{
+    line-height: 1.8em;
+    border-bottom: 1px solid rgba(255,255,255,0.7);
+}
+
+a
+{
+    text-decoration: none;
+    color: #2F4F4F;
+    cursor: pointer;
+}
+
+a:hover
+{
+    color: black;
+}
